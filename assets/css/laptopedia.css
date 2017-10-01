@@ -1,0 +1,130 @@
+ body {
+        font-family: helvetica, sans-serif;
+        margin: 0 auto;
+        max-width: 1300px;
+        background: url("../1.jpeg") no-repeat center center fixed; 
+		 -webkit-background-size: cover;
+		 -moz-background-size: cover;
+		 -o-background-size: cover;
+		 background-size: cover;
+        }
+        ul{
+        text-decoration:none;
+        padding-left:0px;
+        float:left;
+        width: 1262px;
+        padding-bottom:10px;
+        padding-top:10px;
+        background:rgba(0,0,0,0.8);
+        }
+        li{
+        text-decoration:none;
+        display:inline;
+        padding-left:40px;
+        padding-right:25px;
+        float:left;
+        font-family:comic sans ms;
+        font-size:16px;
+        }
+        a{
+        color:white;
+        }
+        div {
+        background-size:cover;
+        position: relative;
+        border-radius: 12px;
+        height:600px;
+        width:1000px;
+        }
+        h1 {
+        font-family: 'Acme', sans-serif;
+        text-align: center;
+        font-size: 70px;
+        color: rgba(0,0,0,0.9);
+        margin: 0 0 0 0;
+        padding-top:100px;
+        }
+        h2 {
+        font-family: 'Sarala', sans-serif;
+        font-size: 30px;
+        text-align: center;
+        color: rgba(0,0,0,1);
+        margin: 10px 0px 70px 0px;
+        }
+        p {
+        color: rgba(255,255,255,1);
+        background: black;
+        background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+        background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+        background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+        padding: 10px;
+        line-height: 28px;
+        width:980px;
+        text-align: justify;
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+        height: 30px;
+        transition: height .5s;
+        -webkit-transition: height .5s;
+        -moz-transition: height .5s;
+        }
+        small {
+        opacity: 0;
+        }
+        .show-description p {
+        height: 210px;
+        }
+        .show-description small {
+        opacity: 1;
+        }
+        .first{
+        background-image: url("../images/Laptopedia1.jpg");
+        background-size:  100% 100% ;
+        margin: 120px 0 0 130px;
+        }
+        .second{
+        background-image: url("../images/Laptopedia2.jpg");
+        background-size: 100% 100% ;margin: 150px 0 0 130px;
+        }
+        .third{
+        background-image: url("../images/Laptopedia3.jpg");
+        background-size: 100% 100% ;margin: 150px 0 0 130px;
+        }
+        .fourth{
+        background-image: url("../images/Laptopedia4.jpg");
+        background-size: 100% 100% ;margin: 150px 0 0 130px;
+        }
+        .fifth{
+        background-image: url("../images/Laptopedia5.jpg");
+        background-size: 100% 100% ;margin: 150px 0 0 130px;
+        }
+        .sixth{
+        background-image: url("../images/Laptopedia66.jpg");
+        background-size: 100% 100% ;margin: 150px 0 0 130px;
+        }
+        .price{
+        float:right;
+        }
+        }
+        @media (max-width: 500px) {
+        h1 {
+        font-size: 50px;
+        margin-top: 20px;
+        line-height: 40px;
+        }
+        h2 {
+        font-size: 20px;
+        margin: 20px 0 30px 0;
+        }
+        div {
+        margin: 20px 12px 0 12px;
+        }
+        p {
+        font-size: 20px;
+        line-height: 24px;
+        }
+        small {
+        font-size: 16px;
+        }
+        }
